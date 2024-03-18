@@ -1,0 +1,26 @@
+.banner {
+    display: block;
+    padding: 5px;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5; 
+}
+
+.bannerText {
+    position: relative;
+    top: 100px;
+    z-index: 20;
+    text-align: center;
+    color: #19427D;
+}
